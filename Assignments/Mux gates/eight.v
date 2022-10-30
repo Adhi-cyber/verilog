@@ -15,7 +15,7 @@ output reg [3:0] f_out;
 
 always @(*)
 begin
-	if (a == 1'b0)
+	if (a[0] == 1'b0)
 	begin
 		out1 = b;
 		out2 = c;
