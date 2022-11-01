@@ -48,7 +48,7 @@ begin
 	else if(in == 4'b1110)
 		out = 3'b011;
 
-	else if(in == 4'b1111)
+	else (in == 4'b1111)
 		out = 3'b100;
 
 end
