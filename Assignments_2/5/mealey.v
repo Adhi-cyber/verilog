@@ -1,4 +1,4 @@
-module sd1101_mealy(input bit clk,
+module mealy(input bit clk,
                    input logic reset,
                    input logic din,
                    output logic dout);
